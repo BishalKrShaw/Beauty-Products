@@ -1,0 +1,230 @@
+/* GOOGLE FONT  */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lato:wght@300;400&family=Playfair+Display:wght@400;600;700&family=Raleway:wght@100;200;300;400&display=swap');
+
+/* font-family: 'DM Serif Display', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+/* SECTION 1 */
+#title-banner{
+    background-image: url(/images/back.png);
+    background-size: cover;
+    padding: 30px 130px 100px;
+    font-family: 'Playfair Display', serif;
+}
+.title-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+.contact-btn{
+    background-color: #E8427A;
+    color: white;
+    padding: 15px 25px;
+    border-style: none;
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+.contact-btn:hover{
+    background-color: #e9336f;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.title-body{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.heading{
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+.para{
+    font-size: 15px;
+}
+.price-para{
+    font-size: 20px;
+    margin-top: 40px;
+}
+.discount-para{
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.title-cta-btn{
+    margin-top: 50px;
+    background-color: #E8427A;
+    color: white;
+    padding: 15px 198px;
+    border-style: none;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+.title-cta-btn:hover{
+    background-color: #e9336f;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* SECTION 2 */
+#features{
+    padding-bottom: 70px;
+}
+.feature-heading{
+    text-align: center;
+    padding: 0 300px;
+    margin: 100px 0;
+}
+.feature-heading h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.feature-body{
+    display: flex;
+    padding: 0 130px;
+}
+.feature-body-img img{
+    width: 320px;
+    margin-right: 50px;
+}
+.feature-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
+.feature-body-grid{
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    column-gap: 40px;
+    align-items: center;
+}
+.feature-body-grid-img img{
+    width: 60px;
+}
+.feature-body-grid-info h3{
+    font-size: 20px;
+}
+.feature-body-grid-info p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+/* SECTION 3 */
+#review{
+    background-color: #F0FAFF;
+    padding: 100px 0;
+}
+.review-heading{
+    text-align: center;
+    padding: 0 150px;
+}
+.review-heading h1{
+    font-size: 40px;
+}
+.review-heading p{
+    padding: 0 150px;
+    margin-top: 25px;
+}
+.testimonials{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 0 130px;
+}
+.customer-review1{
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 0 35px rgba(23, 153, 218, 0.2);
+    padding: 20px 25px 30px;
+}
+.customer-review1 img{
+    width: 480px;
+}
+.customer-review1{
+    margin-right: 18px;
+/* }
+.customer-review2{
+    margin-left: 18px; */
+}
+.review-description{
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 15px;
+}
+.customer-name{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(81,81,81);
+}
+
+/* SECTION 4 */
+.cta-section{
+    background-color: #1F1F1F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 110px;
+    padding: 30px 50px 0;
+    border-radius: 25px;
+}
+.cta-img{
+    margin-right: 50px;
+}
+.cta-info h1{
+    color: white;
+    font-size: 45px;
+    line-height: 50px;
+}
+.cta-info p{
+    color: white;
+    font-size: 14px;
+    margin-top: 25px;
+}
+.cta-info button{
+    margin-top: 50px;
+    background-color: #E8427A;
+    color: white;
+    padding: 15px 198px;
+    border-style: none;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+.cta-info button:hover{
+    background-color: rgb(233, 51, 111);
+    box-shadow: 0 8px 10px rgba(226, 166, 186, 0.2);
+}
+
+/* FOOTER  */
+footer{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+}
+footer img{
+    width: 150px;
+    margin-bottom: 25px;
+}
+footer p{
+    color: gray;
+}

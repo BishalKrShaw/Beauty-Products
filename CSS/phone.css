@@ -1,0 +1,106 @@
+/* SECTION 1 - TITLE  */
+#title-banner{
+    padding: 30px 30px 100px;
+    text-align: center;
+}
+.contact-btn{
+    margin-top: 30px;
+    width: 100%;
+}
+.heading {
+    font-size: 40px;
+}
+.title-head{
+    flex-direction: column;
+}
+.title-body{
+    flex-direction: column;
+    margin-top: 30px;
+}
+.title-cta-btn{
+    padding: 15px 18px;
+    width: 100%;
+}
+.title-body-img img{
+    width: 250px;
+    margin-top: 50px;
+}
+
+/* SECTION 2 - FEATURE */
+.feature-heading{
+    padding: 0 20px;
+    margin: 50px 0;
+}
+.feature-body{
+    flex-direction: column;
+    padding: 0 50px;
+}
+.feature-body-img{
+    text-align: center;
+}
+.feature-body-img img{
+    width: 250px;
+    margin-right: 0;
+    /* text-align: center; */
+}
+.feature-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.feature-body-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* SECTION 3 - REVIEW */
+#review{
+    padding: 50px 0;
+}
+.review-heading{
+    padding: 0 20px;
+}
+.review-heading h1{
+    font-size: 20px;
+}
+.testimonials{
+    padding: 0 10px;
+    flex-direction: column;
+}
+.customer-review1 img{
+    width: 250px;
+}
+.customer-review1{
+    margin-right: 0;
+    margin-top: 20px;
+}
+.review-heading p{
+    padding: 0;
+}
+
+/* SECTION 3 CTA  */
+.cta-img {
+    margin-right: 0;
+}
+.cta-info button{
+    padding: 15px 18px;
+    width: 100%;
+}
+.cta-section{
+    flex-direction: column;
+    margin: 50px 10px;
+    padding: 30px 20px 30px;
+    text-align: center;
+}
+.cta-img img{
+    width: 200px;
+}
+.cta-info h1 {
+    font-size: 31px;
+}
+
+/* FOOTER  */
+footer p{
+    padding: 0 25px;
+}
